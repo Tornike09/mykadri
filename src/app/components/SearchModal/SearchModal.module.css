@@ -1,0 +1,48 @@
+.modalWrapper {
+  width: 280px;
+  height: 500px;
+  background-color: #1e2024;
+  position: absolute;
+  top: 64;
+  z-index: 999;
+}
+
+.modalWrapper ul {
+  display: flex;
+  flex-direction: column;
+  scroll-snap-type: y;
+  overflow-y: scroll;
+  height: 500px;
+}
+
+.modalWrapper li {
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.modalWrapper a {
+  display: flex;
+}
+
+.modalWrapper img {
+  border: 1px solid #fff;
+}
+
+.modalWrapper ul div {
+  margin-left: 20px;
+}
+
+.modalWrapper p {
+  color: #fff;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.modalWrapper h5 {
+  color: #fab700;
+  font-family: sans-serif;
+  font-size: 10px;
+  margin-top: 10px;
+}
