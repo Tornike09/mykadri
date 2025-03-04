@@ -29,7 +29,9 @@ export const Header = () => {
             <li>სერიალები</li>
             <li>4K ფილმები</li>
             <li>ანიმეები</li>
-            <li>ანიმე შოპინგი</li>
+            <li>
+              <Link href={"/watchList"}>სანახავი სია</Link>
+            </li>
           </ul>
         </div>
         <div className={styles.inputCont}>

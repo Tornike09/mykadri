@@ -33,6 +33,14 @@
   cursor: pointer;
 }
 
+.headerNav a {
+  color: #fff;
+}
+
+.headerNav a:hover {
+  color: #fab700;
+}
+
 .headerNav li:hover {
   color: #fab700;
 }

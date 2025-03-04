@@ -1,0 +1,15 @@
+.mainContent {
+    display: flex;
+    justify-content: center;
+}
+
+.mainContent > div {
+    max-width: 1200px;
+    width: 90%;
+}
+
+.mainContent > div h1 {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 400;
+}

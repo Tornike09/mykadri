@@ -34,6 +34,20 @@
   background-size: cover;
 }
 
+.titleCont {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titleCont svg {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
 .aboutMovie {
   width: 100%;
   background-color: #16181c;
@@ -92,12 +106,49 @@
   align-items: center;
 }
 
-.blurCont div {
+.triangle {
   width: 80px;
   height: 80px;
-  background-color: #fff;
+  background-color: #979797;
   clip-path: polygon(0 0, 0% 100%, 100% 50%);
   cursor: pointer;
-  position: relative;
+  position: absolute;
+  bottom: 60%;
+  left: 60%;
   z-index: 999;
+}
+
+.triangle:hover {
+  background-color: #fff;
+}
+
+.respDescription {
+  display: none !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .description {
+    display: none !important;
+  }
+
+  .movieImage {
+    display: none;
+  }
+
+  .movie {
+    width: 100%;
+  }
+
+  .triangle {
+    left: 50%;
+  }
+
+  .respDescription {
+    display: flex !important;
+  }
+
+  .respDescription p {
+    color: #fff;
+    margin-left: 8px;
+  }
 }
